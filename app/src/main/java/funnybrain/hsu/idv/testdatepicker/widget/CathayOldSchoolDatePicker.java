@@ -178,9 +178,9 @@ public class CathayOldSchoolDatePicker extends LinearLayout {
                 return 31;
             case 2:
                 if (isLeapYear(year)) {
-                    return 30;
-                } else {
                     return 29;
+                } else {
+                    return 28;
                 }
             default:
                 return 30;
